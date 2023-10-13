@@ -1,0 +1,43 @@
+<template>
+  <div class="hello">
+    <h1>{{ msg }}</h1>
+    <p>
+      Start Date:
+      <a  target="_blank" rel="noopener">2023-10-10</a>.
+    </p>
+    <p>
+      One recent favorite quote:
+      <a  target="_blank" rel="noopener">できないならできるまでやる</a>
+    </p>
+    <!-- <h3>If u wanna change language :
+    <a href="https://router.vuejs.org" target="_blank" rel="noopener">Click here</a>
+  </h3> -->
+  </div>
+</template>
+
+<script>
+export default {
+  name: 'HelloWorld',
+  props: {
+    msg: String
+  }
+}
+</script>
+
+<!-- Add "scoped" attribute to limit CSS to this component only -->
+<style scoped lang="less">
+h3 {
+  margin: 40px 0 0;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+li {
+  display: inline-block;
+  margin: 0 10px;
+}
+a {
+  color: #42b983;
+}
+</style>
